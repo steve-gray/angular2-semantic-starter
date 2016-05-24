@@ -1,0 +1,41 @@
+{
+  "name": "angular2-minimal",
+  "version": "0.1.0",
+  "description": "Minimal example of using Angular 2 in an application.",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "gulp build",
+    "start": "node index",
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steve-gray/angular2-minimal.git"
+  },
+  "keywords": [
+    "angular2",
+    "minimal",
+    "example",
+    "application",
+    "REST"
+  ],
+  "author": "Steve Gray",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/steve-gray/angular2-minimal/issues"
+  },
+  "homepage": "https://github.com/steve-gray/angular2-minimal#readme",
+  "dependencies": {
+    "ame": "^2.0.0-beta17.ame4",
+    "compression": "^1.6.2",
+    "connect": "^3.4.1",
+    "connect-mount": "^1.0.0",
+    "jquery": "^2.2.4",
+    "semantic-ui": "^2.1.8",
+    "serve-static": "^1.10.2",
+    "swagger-service-skeleton": "^1.1.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}

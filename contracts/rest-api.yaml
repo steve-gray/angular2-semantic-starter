@@ -1,0 +1,21 @@
+swagger: '2.0'
+info:
+  version: 1.0.0
+  title: Todo List
+  description: Todo List API
+schemes:
+  - http
+basePath: /
+paths:
+  /item:
+    x-swagger-router-controller: todo
+    get:
+      operationId: getAllItems
+      summary: Get All Items
+      description: Fetch all todo list items.
+      tags:
+        - List Management
+      responses:
+        200:
+          x-gulp-swagger-codegen-outcome: success
+          description: Items

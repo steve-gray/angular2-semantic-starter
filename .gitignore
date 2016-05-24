@@ -1,0 +1,10 @@
+.DS_Store
+thumbs.db
+*.bak
+*.log
+*.tmp
+*.tar
+*.tgz
+node_modules
+dist
+public/thirdparty/semantic/dist
